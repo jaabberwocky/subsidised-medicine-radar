@@ -1,6 +1,6 @@
-use crate::drugs::drug::Drug;
 use bincode::Error;
 use chrono::{DateTime, Utc};
+use drug::Drug;
 use scraper::{Html, Selector};
 use serde::{Deserialize, Serialize};
 use std::fs::File;
